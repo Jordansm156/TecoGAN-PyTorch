@@ -8,22 +8,29 @@ verbose: false
 dataset:
   degradation:
     type: BI
-
+   
   test1:
-    name: Vid4
-    gt_seq_dir: data/Vid4/GT
-    lr_seq_dir: data/Vid4/Bicubic4xLR
+    name: survivor
+    lr_seq_dir: data/survivor
     filter_file: ~
     num_workers: 4
     pin_memory: true
 
-  test2:
-    name: ToS3
-    #gt_seq_dir: data/ToS3/GT
-    lr_seq_dir: data/ToS3/Bicubic4xLR
-    filter_file: ~
-    num_workers: 4
-    pin_memory: true
+  #test1:
+  #  name: Vid4
+  #  gt_seq_dir: data/Vid4/GT
+  #  lr_seq_dir: data/Vid4/Bicubic4xLR
+  #  filter_file: ~
+  #  num_workers: 4
+  #  pin_memory: true
+
+  #test2:
+  #  name: ToS3
+  #  #gt_seq_dir: data/ToS3/GT
+  #  lr_seq_dir: data/ToS3/Bicubic4xLR
+  #  filter_file: ~
+  #  num_workers: 4
+  #  pin_memory: true
 
 
 # model configs
