@@ -19,7 +19,7 @@ dataset:
 
   test2:
     name: ToS3
-    gt_seq_dir: data/ToS3/GT
+    #gt_seq_dir: data/ToS3/GT
     lr_seq_dir: data/ToS3/Bicubic4xLR
     filter_file: ~
     num_workers: 4
